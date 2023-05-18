@@ -1,97 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aplicativo Senac</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    
 </head>
+
 <body>
     <header>
-       <img class="logo-senac" src="logo-senac.png" alt="logomarca do SENAC">
-    <ul class="lista-botoes">
-        <li>Início</li>
-        <li>Cursos</li>
-        <li>Contato</li>
-        <li>Site Oficial</li>
-    </ul> 
+        <img class="logo-senac" src="img/logo-senac.png" alt="logo">
+        <ul class="lista-botoes">
+            <li>Inicio</li>
+            <a href="cursos.html"></a><li>Cursos</li>
+            <a href="contato.html"><li>Contato</li></a>
+            <li>Site Oficial</li>
+        </ul>
     </header>
-
     <main>
-        <h1>Nossos<br> Cursos</h1>
-        <ul>
-            <li class="curso-item">
-                <img src="programacao.jpg" alt="">
+        <h1>NOSSOS <br> CURSOS</h1>
+        <ul class="curso-lista">
+
+            <li class="curso-item"><img src="img/progeramanocao.jpg" alt="programacao">
                 <div class="curso-texto">
                     <a href="#">SAIBA MAIS</a>
-                    <span></span>
-                    <h2>Progração</h2>
-                    <p> Todos que tem interesse em ingressar na área da tecnologia.</p>
+                    <span>
+
+                    </span>
+                    <h2>Programação</h2>
+                    <p>Curso para todos que tem interesse em, ingressar na área da tecnologia.
+                    <p>
                     <ul>
                         <li>Tecnologia</li>
-                        <li>Design UI/UX</li>
+                        <li>Desing UI/UX</li>
                         <li>Desenvolvimento Web</li>
                         <li>Front-end</li>
                     </ul>
                 </div>
             </li>
 
-            <li class="curso-item">
-                <img src="administracao.jpg" alt="">
+            <li class="curso-item" > <img src="img/administracao.jpg" alt="administracao">
                 <div class="curso-texto">
                     <a href="#">SAIBA MAIS</a>
-                    <span></span>
-                    <h2>administracao</h2>
-                    <p>  Direcionando para quem queira trabalhar no setor administrativo e com licença</p>
-                    <ul>
-                        <li>Marketing</li>
-                        <li>Finança</li>
-                        <li>Contabilidade</li>
-                        <li>Front-End</li>
-                    </ul>
+                    <span>
+
+                    </span>
+                 <h2>Administração</h2>
+                 <p>Direcionado para quem queira trabalhar no setor administrativo e com finanças</p>
+                 <ul>
+                    <li>Marketing</li>
+                    <li>Finanças</li>
+                    <li>Contabilidade</li>
+                 </ul>
                 </div>
+
+            </li>
+
+            
+            <li class="curso-item" > <img src="img/enfermagem.jpg" alt="enfermagem">
+                <div class="curso-texto">
+                    <a href="#">SAIBA MAIS</a>
+                    <span>
+
+                    </span>
+                 <h2>Enfermagem</h2>
+                 <p>Curso para todos que tem interesse em, ingressar na área da enfermagem. </p>
+                 <ul>
+                    <li>Biosegurança</li>
+                    <li>Primeiros socorros</li>
+                    <li>Ministração de medicamentos</li>
+                 </ul>
+                </div>
+
+            </li>
+            <li class="curso-item" > <img src="img/games.jpg" alt="games">
+                <div class="curso-texto">
+                    <a href="#">SAIBA MAIS</a>
+                    <span>
+
+                    </span>
+                 <h2>Desenvolvedor de Jogos</h2>
+                 <p>Curso para todos que tem interesse em, ingressar na área de desenvolvimento de jogos. </p>
+                 <ul>
+                    <li>Modelagem</li>
+                    <li>Animação</li>
+                    <li>Desing</li>
+                    <li>Programação</li>
+                    <li>Criação de mapas</li>
+                 </ul>
+                </div>
+
             </li>
         </ul>
-
-        <li class="curso-item">
-            <img src="enfermagem.jpg" alt="">
-            <div class="curso-texto">
-                <a href="#">SAIBA MAIS</a>
-                <span></span>
-                <h2>enfermagem</h2>
-                <p>Para você que gostaria de engressar na área da saúde</p>
-                <ul>
-                    <li>Biosegurança</li>
-                    <li>Primeiros Socorros</li>
-                    <li>Ministracão de medicamentos</li>
-                    <li>Front-End</li>
-                </ul>
-            </div>
-        </li>
-    </ul>
-
-    <li class="curso-item">
-        <img src="UMC-Medicina-Veterinaria-1024x684.jpg" alt="">
-        <div class="curso-texto">
-            <a href="#">SAIBA MAIS</a>
-            <span></span>
-            <h2>Medicina Veterinária</h2>
-            <p>Para você que gosta de cuidar das saudes dos animais</p>
-            <ul>
-                <li>Anatomia dos animais</li>
-                <li>Anestesiologia Veterinária</li>
-                <li>Doenças Infecciosas</li>
-                <li>Farmacologia</li>
-            </ul>
-        </div>
-    </li>
-</ul>
+        
     </main>
-    <footer>Feito por Isabelle Lorrane @ 2023</footer>
-    <script src="index.js"></script>
+    <footer>
+        Feito por Isabelle Lorrane,<br> aluno de Daniel Andrade @2023
+    </footer>
+  <script src="index.js"></script>  
 </body>
+
 </html>
